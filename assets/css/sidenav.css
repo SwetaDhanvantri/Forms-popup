@@ -1,0 +1,21 @@
+*{
+    overflow-x: hidden;
+}
+#sidenav{
+    background-color: #433897;
+    color: #fefefe;
+}
+#sidenav a{
+    color: #fefefe;
+}
+#sidenav .fa-solid{
+   
+} 
+#sidenav .arrow{
+    padding-top: 6px;
+    font-size: 10px;
+
+}
+#sidenav .item{
+   
+}

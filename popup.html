@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/announcement.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.2.0-web/css/all.min.css"> 
+    <title>Announcement</title>
+  </head>
+  <body>
+
+    <div class="popup"  id="first">
+        <!--carousal-->
+        <div id="container">
+
+       
+          <div class="d-flex p-4 justify-content-center">
+           
+              <div class="col-sm-12 col-xl-9 main-section" id="mainSection"  data-closable>
+                  <div class="d-flex mb-2 heading" >
+                      <div class="message me-auto"><p>Important Message</p></div><hr/> 
+                      <div class="">
+                        <button type="button" class="close" id="toggle" >
+                          <span type="btn" class="close" id="close" onclick="closebtn()"><i class="fa-solid fa-xmark"></i></span>
+                        </button>
+                      </div>
+                      
+                  </div>
+                
+                  <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                      <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <p class="inside">
+                               <strong style="font-size: 16px;"> Additional Incentive On Inverter SAC Sale (Sponsored By Pine Labs)</strong><br/>
+                                Dear All,<br/> 
+                                  We are very happy to announce this additional & exciting
+                                   SSR incentive program, which is over & above of our own/ regular monthly product incentive slabs. <br/>
+                                    <b>Activity Name –</b> Additional Incentive on Inverter SAC Sale 
+                                    (Sponsored by Pine Labs) <br/>
+                                    <b>Period –</b> from 16th Sep to 30th Oct 2022<br/>
+                                   <b> Product – </b>Air Conditioners.<br/>
+                                  <b>Qualification Criteria - </b>Sales made from Pine Labs EMI and on Inverter Air Conditioners sold; 
+                                  Will be basis TID data of Pine Labs EMI Transaction on SSR Mapped Store.<br/>
+   
+                     ********** In case of query/Issues related to this offer, please connect with your TL/TME *********************
+  
+                              </p>
+                              <img  class="img-thumbnail" alt="Responsive image" src="./assets/img/download.png" alt="First slide">
+                              
+                          </div>
+                          <div class="carousel-item">
+                              <img class="img-thumbnail" alt="Responsive image"  src="./assets/img/download (1).png" alt="Second slide">
+                             
+                          </div>
+                      </div>
+                      <div style="bottom:10px;">
+                        <a class="carousel-control-prev " id="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-circle-chevron-left"></i></span>
+                          <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" id="arrow" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-circle-chevron-right"></i></span>
+                          <span class="sr-only">Next</span>
+                          </a>
+                      </div>
+                    
+                  </div>
+  
+      
+              </div>
+              
+          </div>
+       </div>
+  
+        <!--carousal-->
+         
+       
+      </div>
+<script>
+    
+   const targetDiv = document.getElementById("first");
+const btn = document.getElementById("toggle");
+btn.onclick = function () {
+  if (targetDiv.style.display !== "none") {
+    targetDiv.style.display = "none";
+  } else {
+    targetDiv.style.display = "block";
+  }
+};
+</script>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./assets/js/announcement.js"></script>
+    <script src="./assets/fontawesome-free-6.2.0-web/js/all.js"></script>
+    <script src="./assets/fontawesome-free-6.2.0-web/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data</title>
+    <!--assets-->
+    <link rel="stylesheet" href="./assets/css/form.css">
+  
+    <link rel="stylesheet" href="./assets/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.2.0-web/css/all.min.css">
+
+    <!-- Bootstrap Date-Picker Plugin -->
+      
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+</head>
+<body>
+  
+   
+     
+      
+                   
+                <!--recruiter form start -->
+                <div>
+                    <div class="title text-center pt-4">
+                        <h4>User Form</h3>
+                    </div>
+                  
+                </div>
+                <div class="container">
+                    <form id="form">  
+                    
+                        <div class=" mb-1 field1"  id="field1">
+                            <div class="form-floating m-2 ">
+                                <input type="text" class="form-control " id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput" >Name (As Per Aadhar) *</label>
+                            </div>
+                    
+                            <div class="form-floating  m-2 ">
+                                <input type="text" class="form-control" id="floatingfname" placeholder="Father Name">
+                                <label for="floatingfname">Father Name (As Per Aadhar) *</label>
+                            </div>
+        
+                        </div>
+                        
+                        <div class="mb-2 "  id="field2">
+                            <div class="form-floating m-2 ">
+                                <input type="tel" class="form-control" id="floatingnumber" placeholder="Mobile Number">
+                                <label for="floatingnumber">Mobile Number</label>
+                            </div>
+                            <div class="form-floating m-2 ">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email ID *</label>
+                            </div>
+                            <div class="form-floating  m-2 ">
+                                <select type="text" class="form-select" id="floatingbgroup" placeholder="Blood Group">
+                                    <option value="default">--</option>
+                                    <option value="group1">A+</option>
+                                    <option value="group2">A-</option>
+                                    <option value="group3">B+</option>
+                                    <option value="group2">B-</option>
+                                    <option value="group3">AB+</option>
+                                    <option value="group2">AB-</option>
+                                    <option value="group3">O+</option>
+                                    <option value="group3">O-</option>
+                                </select>
+                                <label for="floatingfname">Blood Group</label>
+                            </div>
+                        </div>
+                        
+        
+                       
+                        <div class="mb-2 "  >
+                            <div class="form-floating m-2 ">
+                                <input type="text" class="form-control" id="floatingaddress" placeholder="Current Residential Address *">
+                                <label for="floatingaddress">Current Residential Address * </label>
+                            </div>
+                        </div>
+                        <div class=" mb-2" id="field1">
+                            <div class="form-floating m-2 ">
+                                <input type="text" class="form-control" id="floatingaddress" placeholder="Current Residential Address *">
+                                <label for="floatingaddress">Country </label>
+                            </div>
+                            <div class="form-floating  m-2 ">
+                                <select type="text" class="form-select" id="floatingbgroup" placeholder="Metro/Non-Metro * ">
+                                    <option value="default">--</option>
+                                    <option value="Metro">Metro</option>
+                                    <option value="Nmetro">Non-Metro</option>
+                                    
+                                </select>
+                                <label for="floatingfname">Metro/Non-Metro *</label>
+                            </div>
+                        </div>
+                    
+                <!--full address form start -->
+        
+                        <div class=" mb-2" id="field2">
+                            <div class="form-floating m-2 ">
+                                <select for="state" name="state" id="state" class="form-select" id="floatingnumber" placeholder="Dose 2">
+                                    <option value="default" selected="selected">--</option>
+                                </select>
+                                <label for="floatingnumber"> State</label>  
+                            </div>
+               
+
+                            <div class="form-floating m-2 ">
+                                <select type="text" class="form-control" id="city" placeholder="City">
+                                <option value="default" selected="selected">--</option>
+                                </select>
+                                <label for="city">City</label> 
+                            </div>
+
+                            <div class="form-floating m-2  ">
+                                <input type="pin" class="form-control" id="pin" placeholder="Pin Code">
+                                <label for="pin">Pincode</label> 
+                            </div>
+                        </div>
+                        
+                    
+                 <!--full address form end -->
+                       
+                        <!--work location -->
+                    <div class=" ">                        
+                        <div class="form-floating m-2 ">
+                            <select for="state" name="state" id="state" class="form-select" id="floatingnumber" placeholder="Dose 2">
+                                <option value="default" selected="selected">--</option>
+                            </select>
+                            <label for="floatingnumber">Work Location</label>  
+                        </div>
+                    </div>
+       
+                    <div class="" id="field2">   
+                        <div class="form-floating m-2 ">
+                            <select type="text" class="form-control" id="city" placeholder="City">
+                            <option value="default" selected="selected">--</option>
+                            </select>
+                            <label for="city">Work Location State *</label> 
+                        </div>
+                        <div class="form-floating m-2 ">
+                            <select type="text" class="form-control" id="city" placeholder="City">
+                            <option value="default" selected="selected">--</option>
+                            </select>
+                            <label for="city">Work Location City *</label> 
+                        </div>
+                        <div class="form-floating m-2 ">
+                            <input type="pin" class="form-control" id="floatingpin" placeholder="Pin Code">
+                            <label for="floatingpin">Pincode(Work Location)</label> 
+                        </div>
+                    </div>
+                      
+                    
+                        
+                         
+                   <!--work end-->
+                        <div class=" mb-2" id="field2">
+                            <div class="form-floating form-group m-2 ">
+                                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+                               <label class="control-label" for="date">Date of Birth</label>
+                                                       
+                            </div>
+
+                            <div class="form-floating form-group m-2 ">
+                                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+                               <label class="control-label" for="date">Date of Joining</label>
+                                                       
+                            </div>
+
+                        </div> 
+                        <div class="text-center d-flex justify-content-center">
+                            <div><a href="./Recruiter_form.html"><button class="btn-submit m-2"><i class="fa-solid fa-backward"></i> Back </button></a></div>
+                         
+                            <div><a href="./"></a><button class="btn-cancel m-2">Next <i class="fa-solid fa-forward"></i></button></div>
+                        
+                        </div>
+                    </form>
+        
+                </div>
+                
+                 <!--recruiter form end -->
+             
+
+    <!--assets-->
+    <script src="./assets/js/userform.js"></script>
+    <script src="./assets/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="./assets/fontawesome-free-6.2.0-web/js/all.js"></script>
+    <script src="./assets/fontawesome-free-6.2.0-web/js/all.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

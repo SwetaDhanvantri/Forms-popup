@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Righteous&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik&display=swap');
+
+body{
+    background-color: #e2eaf4 !important;
+
+}
+.carousel-inner{
+    position: relative;
+    transition: 0.6s ease-in-out left;
+    background-color: #fff;
+   
+}
+.carousel-item{
+    background-color: #fff;
+}
+
+.main-section{
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.main-section .heading{
+  background-color: #189ab4;
+  padding-left:10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.carousel-control-prev-icon{
+    margin-left: -52px;
+   
+}
+.carousel-control-next-icon{
+    margin-right: -52px;
+    
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-image: none;
+  color: #189ab4;
+  background-color: transparent !important;
+  font-size: 20px;
+}
+.message p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 0px;
+    line-height: 32px;
+    font-size: 14px;
+     font-family: 'Overpass', sans-serif;
+}
+.carousel-inner{
+    border: 1px solid rgba(255,255,255,0.5);
+}
+.inside{
+    border: 1px solid #D0CFCF;
+    padding: 20px;
+    border-radius: 10px;
+}
+#close{
+    border: none;
+    font-size: 22px;
+    color: #fff !important;
+    cursor: pointer;
+}
+.close{
+    margin: 3px;
+    border: none;
+    font-size: 22px;
+    color: #fff !important;
+    cursor: pointer;
+}
+.close:hover{
+
+}
+.carousel-indicators li {
+    background-color: #189ab4;
+    border-radius: 50%;
+    height: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 10px;
+    cursor: pointer;
+    }
+    
+    

@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title> Multi-step Form</title>
+      <!-- CSS -->
+      <link rel="stylesheet" href="./assets/css/form.css">
+      <link rel="stylesheet" href="./assets/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./assets/fontawesome-free-6.2.0-web/css/all.css">
+      <link rel="stylesheet" href="./assets/fontawesome-free-6.2.0-web/css/all.min.css">
+      <link href="./assets/css/multistepform.css" rel="stylesheet">
+      <!-- FONT -->
+      <link href="https://fonts.gstatic.com" rel="preconnect">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+   </head>
+   <body>
+
+
+<!-- CONTAINER -->
+ <div class="container d-flex align-items-center">
+  <div class="row justify-content-center">
+               
+ <!-- FORMS -->
+    <div class="col-12  px-0">
+      <div class="progress my-4">
+         <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 100%">
+         </div>
+     </div>
+     <!--qbox start-->
+     <div id="qbox-container">
+        <form class="needs-validation" id="form-wrapper" method="post" name="form-wrapper" novalidate>
+        <!-- STEPS HERE -->
+            <div id="steps-container">
+
+                <div class="step">
+                  <h4>Recruiter form</h4>
+
+                  <form id="form"  method="post">  
+                   <div class="field1 mb-1 " id="field1">
+
+                        <div class="form-floating m-2">
+                            <input type="text" class="form-control " id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput" >Name</label>
+                        </div>
+      
+                        <div class="form-floating  m-2">
+                            <input type="text" class="form-control" id="floatingfname" placeholder="Father Name">
+                            <label for="floatingfname">Father Name</label>
+                        </div>
+                 
+                    </div>
+          
+                    <div class="mb-1" id="field1">
+                        <div class="form-floating m-2">
+                           <input type="tel" class="form-control" id="floatingnumber" placeholder="Mobile Number">
+                           <label for="floatingnumber">Mobile Number</label>
+                        </div>
+                        <div class="form-floating m-2">
+                           <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                    </div>
+  
+  
+                    <div class="form-floating m-2">
+                        <input type="name" class="form-control " id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput" >Dealer Name</label>
+                    </div>
+                           
+                    
+                    <div class="mb-1" id="field4">
+                        <div class="form-floating m-2">
+                         <input type="text" class="form-control" id="floatinglocation" placeholder="Work Location">
+                         <label for="floatinglocation">Work Location</label>
+                        </div>
+                    </div>
+          
+                    <div class="mb-1" id="field2">
+                         <div class="form-floating m-2">
+                          <select for="state" class="form-select" id="floatingnumber" placeholder="Dose 2">
+                            <option value="default">--</option>
+                            <option value="state1">Andhra Pradesh</option>
+                            <option value="state2">Arunachal Pradesh</option>
+                            <option value="state3">Assam</option>
+                            <option value="state4">Bihar</option>
+                            <option value="state5">Chhattisgarh</option>
+                            <option value="state6">Goa</option>
+                            <option value="state7">Gujarat</option>
+                            <option value="state8">Haryana</option>
+                            <option value="state9">Himachal Pradesh</option>
+                            <option value="state10">Jharkhand</option>
+                            <option value="state11">karnataka</option>
+                            <option value="state12">Kerala</option>
+                            <option value="state13">Madhya Pradesh</option>
+                            <option value="state14">Maharashtra</option>
+                            <option value="state15">Manipur</option>
+                            <option value="state16">Meghalaya</option>
+                            <option value="state17">Mizoram</option>
+                            <option value="state18">Nagaland</option>
+                            <option value="state19">Odisha</option>
+                            <option value="state20">Punjab</option>
+                            <option value="state21">Rajasthan</option>
+                            <option value="state22">Sikkim</option>
+                            <option value="state23">Tamil Nadu</option>
+                            <option value="state24">Telangana</option>
+                            <option value="state25">Tripura</option>
+                            <option value="state26">Uttrakhand</option>
+                            <option value="state27">Uttar Pradesh</option>
+                            <option value="state28">West Bangal</option>
+                        </select>
+                         <label for="floatingnumber"> State</label>  
+                    </div>
+
+                       <div class="form-floating m-2">
+                         <input type="text" class="form-control" id="floatincity" placeholder="City">
+                         <label for="floatingcity">City</label> 
+                       </div>
+                      <div class="form-floating m-2">
+                       <input type="pin" class="form-control" id="floatingpin" placeholder="Pin Code">
+                       <label for="floatingpin">Pincode</label> 
+                    </div>
+                </div>
+  
+         
+          <div class="mb-1" id="field2">
+              <div class="form-floating m-2">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Work Profile">
+                  <label for="floatingInput">Work Profile</label>
+              </div>
+              <div class="form-floating m-2">
+                  <input type="number" class="form-control" id="floatingInput" placeholder="Experience (in years)">
+                  <label for="floatingInput">Experience(in year)</label>
+              </div>
+              
+         
+              <div class="form-floating m-2">
+                  <input type="num" class="form-control" id="floatingnumber" placeholder="Net Pay">
+                  <label for="floatingnumber">Net Pay </label>
+              </div>
+          </div>
+          
+  
+          <div class=" mb-1" id="field3">
+              <div class="form-floating m-2">
+                  <select for="email" class="form-select" id="floatingnumber" placeholder="Dose 1">
+                      <option selected>--</option>
+                      <option value="value1">Taken</option>
+                      <option value="value2">Not</option>
+                      </select>
+                  <label for="floatingnumber">Dose 1 </label>
+              </div>
+  
+              <div class="form-floating m-2">
+                  <select for="email" class="form-select" id="floatingnumber" placeholder="Dose 2">
+                      <option selected>--</option>
+                      <option value="value1">Taken</option>
+                      <option value="value2">Not</option>
+                      </select>
+                  <label for="floatingnumber">Dose 2 </label>
+              </div>
+          
+          </div>
+          
+        </div>
+      </form>
+    </div> 
+</div>
+<!--steps-container end-->
+
+<!--step 2 start-->
+<div class="step">
+    <h4>User Form</h4>
+                                        
+    <!--user form start-->
+    <div class="container">
+        <form id="form">  
+        
+            <div class=" mb-1 field1"  id="field1">
+                <div class="form-floating m-2 ">
+                    <input type="text" class="form-control " id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput" >Name (As Per Aadhar) *</label>
+                </div>
+        
+                <div class="form-floating  m-2 ">
+                  <input type="text" class="form-control" id="floatingfname" placeholder="Father Name">
+                  <label for="floatingfname">Father Name (As Per Aadhar) *</label>
+               </div>
+
+            </div>
+        
+            <div class="mb-2 "  id="field2">
+              <div class="form-floating m-2 ">
+                <input type="tel" class="form-control" id="floatingnumber" placeholder="Mobile Number">
+                <label for="floatingnumber">Mobile Number</label>
+              </div>
+              <div class="form-floating m-2 ">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email ID *</label>
+              </div>
+              <div class="form-floating  m-2 ">
+                <select type="text" class="form-select" id="floatingbgroup" placeholder="Blood Group">
+                    <option value="default">--</option>
+                    <option value="group1">A+</option>
+                    <option value="group2">A-</option>
+                    <option value="group3">B+</option>
+                    <option value="group2">B-</option>
+                    <option value="group3">AB+</option>
+                    <option value="group2">AB-</option>
+                    <option value="group3">O+</option>
+                    <option value="group3">O-</option>
+                </select>
+                <label for="floatingfname">Blood Group</label>
+              </div>
+          </div>
+
+        <div class="mb-2 " >
+            <div class="form-floating m-2 ">
+                <input type="text" class="form-control" id="floatingaddress" placeholder="Current Residential Address *">
+                <label for="floatingaddress">Current Residential Address * </label>
+            </div>
+        </div>
+
+        <div class=" mb-2" id="field1">
+            <div class="form-floating m-2 ">
+                <input type="text" class="form-control" id="floatingaddress" placeholder="Current Residential Address *">
+                <label for="floatingaddress">Country </label>
+            </div>
+            <div class="form-floating  m-2 ">
+                <select type="text" class="form-select" id="floatingbgroup" placeholder="Metro/Non-Metro * ">
+                    <option value="default">--</option>
+                    <option value="Metro">Metro</option>
+                    <option value="Nmetro">Non-Metro</option>
+               </select>
+                <label for="floatingfname">Metro/Non-Metro *</label>
+            </div>
+        </div>
+
+        <div class=" mb-2" id="field2">
+            <div class="form-floating m-2 ">
+                <select for="state" name="state" id="state" class="form-select" id="floatingnumber" placeholder="Dose 2">
+                    <option value="default" selected="selected">--</option>
+                </select>
+                <label for="floatingnumber"> State</label>  
+            </div>
+
+
+            <div class="form-floating m-2 ">
+                <select type="text" class="form-control" id="city" placeholder="City">
+                <option value="default" selected="selected">--</option>
+                </select>
+                <label for="city">City</label> 
+            </div>
+
+            <div class="form-floating m-2  ">
+                <input type="pin" class="form-control" id="pin" placeholder="Pin Code">
+                <label for="pin">Pincode</label> 
+            </div>
+        </div>
+  
+                       
+        <div class="form-floating m-2 ">
+            <select for="state" name="state" id="state" class="form-select" id="floatingnumber" placeholder="Dose 2">
+                <option value="default" selected="selected">--</option>
+            </select>
+            <label for="floatingnumber">Work Location</label>  
+        </div>
+  
+
+       <div id="field2" class="mb-2"> 
+
+          <div class="form-floating m-2 ">
+            <select type="text" class="form-control" id="city" placeholder="City">
+            <option value="default" selected="selected">--</option>
+            </select>
+            <label for="city">Work Location State *</label> 
+          </div>
+
+          <div class="form-floating m-2 ">
+            <select type="text" class="form-control" id="city" placeholder="City">
+            <option value="default" selected="selected">--</option>
+            </select>
+            <label for="city">Work Location City *</label> 
+          </div>
+
+          <div class="form-floating m-2 ">
+            <input type="pin" class="form-control" id="floatingpin" placeholder="Pin Code">
+            <label for="floatingpin">Pincode(Work Location)</label> 
+          </div>
+     </div>
+
+     <div class=" mb-2" id="field2">
+
+            <div class="form-floating form-group m-2 ">
+              <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+              <label class="control-label" for="date">Date of Birth</label>
+            </div>
+
+            <div class="form-floating form-group m-2 ">
+              <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+              <label class="control-label" for="date">Date of Joining</label>
+           </div>
+
+        </div> 
+    </form>
+  </div>
+
+<!--user form end-->
+</div>
+
+<!---*****************************************************************************************-->
+<div class="step">
+<h4>User Banking Data</h4>
+                               
+<!---bank data start-->
+
+  <div class="container">
+  
+    <form id="form">  
+          
+            <div class="form-floating m-2 ">
+                <select for="Payment" class="form-select" id="floatingnumber" placeholder="Payment Mode">
+                    <option selected>--</option>
+                    <option value="value1">In Account</option>
+                    <option value="value2">In hand</option>
+                    </select>
+                <label for="floatingnumber">Payment Mode</label>
+            </div>
+    
+           <div class=" mb-2" id="field2">
+
+             <div class="form-floating m-2 ">
+                <select for="bank" class="form-select" id="floatingnumber" placeholder="Bank Name">
+                    <option selected>--</option>
+                    <option value="value1">Bank of Baroda</option>
+                    <option value="value2">Bank of India</option>
+                    <option value="value3">Bank of Maharashtra</option>
+                    <option value="value4">Canara Bank</option>
+                    <option value="value5">Central Bank of India</option>
+                    <option value="value6">Indian Bank</option>
+                    <option value="value7">Indian Overseas Bank	</option>
+                    <option value="value8">Punjab National Bank	</option>
+                    <option value="value9">Punjab and Sind Bank	</option>
+                    <option value="value10">Union Bank of India</option>
+                    <option value="value11">UCO Bank</option>
+                    <option value="value12">State Bank of India</option>
+                    <option value="value13">Axis Bank</option>
+                    <option value="value14">Bandhan Bank</option>
+                    <option value="value15">CSB Bank</option>
+                    <option value="value16">City Union Bank</option>
+                    <option value="value17">DCB Bank</option>
+                    <option value="value18">Dhanlaxmi Bank</option>
+                    <option value="value19">HDFC Bank</option>
+                    <option value="value20">ICICI Bank</option>
+                    <option value="value21">IDBI Bank</option>
+                    <option value="value22">IDFC First Bank</option>
+                    <option value="value23">IndusInd Bank</option>
+                    <option value="value24">Jammu & Kashmir Bank</option>
+                    <option value="value25">Karnataka Bank</option>
+                    <option value="value26">Karur Vysya Bank</option>
+                    <option value="value27">Kotak Mahindra Bank</option>
+                    <option value="value28">Nainital Bank</option>
+                    <option value="value29">RBL Bank</option>
+                    <option value="value30">South Indian Bank</option>
+                    <option value="value31">Tamilnad Mercantile Bank</option>
+                    <option value="value32">Yes Bank</option>
+                    </select>
+                <label for="floatingnumber">Bank Name</label>
+            </div>
+
+            <div class="form-floating form-group m-2 ">
+                <input class="form-control" id="account" name="account"  type="num" placeholder="Account  Number"/>
+               <label class="control-label" for="account">Account No *</label>
+            </div>
+
+            <div class="form-floating form-group m-2 ">
+                <input class="form-control" id="ifsc" name="ifsc"   maxlength="11" type="num" placeholder="IFSC Code"/>
+                <label class="control-label" for="date">IFSC Code*</label>
+                                    
+            </div>
+
+        </div>
+
+        <div class=" mb-2" id="field1">
+
+            <div class="form-floating form-group m-2 ">
+              <input class="form-control" id="dep" name="department" type="text" placeholder="Department"/>
+              <label class="control-label" for="dep">Department</label>
+           </div>
+            <div class="form-floating form-group m-2 ">
+              <input class="form-control" id="designation" name="designation" type="text" placeholder="Designation"/>
+              <label class="control-label" for="des">Designation * </label>
+           </div>
+
+        </div> 
+        
+        <div class=" mb-2" id="field2">
+            
+            <div class="form-floating m-2 ">
+                <select for="gender" class="form-select" id="floatingnumber" placeholder="Gender">
+                    <option selected>--</option>
+                    <option value="value1">Male</option>
+                    <option value="value2">Female</option>
+                    <option value="value3">Other</option>
+                    </select>
+                <label for="floatingnumber">Gender</label>
+            </div>
+
+            <div class="form-floating m-2 ">
+                <select for="email" class="form-select" id="floatingnumber" placeholder="Dose 2">
+                    <option selected>--</option>
+                    <option value="value1">Single</option>
+                    <option value="value2">Married</option>
+                    <option value="value3">Widowed</option>
+                    <option value="value4">Separated</option>
+                    <option value="value5">Divorced</option>
+                    </select>
+                <label for="floatingnumber">Marital Status</label>
+            </div>
+            <div class="form-floating form-group m-2 ">
+                <input class="form-control" id="exp" maxlength="3" name="experience" type="num" placeholder="Experience"/>
+               <label class="control-label" for="exp">Experience </label>
+             </div>
+
+        </div>
+
+        <div class=" mb-2" id="field2">
+
+            <div class="form-floating m-2 ">
+                <select for="salary" class="form-select" id="floatingnumber" placeholder="Salary per month *">
+                    <option selected>--</option>
+                    <option value="value1">Yes</option>
+                    <option value="value2">No</option>
+                </select>
+                <label for="floatingnumber">Salary per month *</label>
+            </div>
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Notice Period (In Days) </label>
+            </div>
+            
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Contract End Date *</label>
+            </div>
+
+        </div>
+
+        <div class=" mb-2" id="field2">
+
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Emergency Contact Person Name
+                </label>
+            </div>
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Emergency Contact Person No
+               </label>
+            </div>
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Emergency Contact Person Email
+                </label>
+            </div>
+        </div>
+
+        <div class=" mb-2" id="field2">
+
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Reporting Manager name
+                </label>
+            </div>
+
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Reporting Manager Contact
+                </label>
+            </div>
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Reporting Manager Email ID</label>
+            </div>
+
+        </div>
+
+        <div class=" mb-2" id="field1">
+
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Relationship with Nominee
+                </label>
+            </div>
+
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Nominee DOB
+                </label>
+            </div>
+
+        </div>
+
+        <div class=" mb-2" id="field2">
+
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">ESIC No if Any
+               </label>
+
+            </div>
+            
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">UAN If any </label>
+            </div>
+
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Aadhar No *
+                </label>
+            </div>
+
+        </div>
+
+        <div class="" id="field2">
+
+            <div class="form-floating m-2 ">
+                <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                <label for="floatingnumber">Category *
+                </label>
+
+            </div>
+                <div class="form-floating m-2 ">
+                    <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                    <label for="floatingnumber">PAN
+                    </label>
+                </div>
+                <div class="form-floating m-2 ">
+                    <input class="form-control" id="np" maxlength="3" name="Notice Period" type="num" placeholder="Notice Period"/>
+                    <label for="floatingnumber">Remarks
+                    </label>
+                </div>
+            </div>  
+            
+        </form>
+
+    </div>
+
+
+    <!---bank data end-->
+    </div>
+
+    <div class="step">
+    <h4>Indentity Documents</h4>
+                                
+    <div class="container">
+        <form id="form">
+            
+            <div class="row " id="form-upload">
+
+                <div class="col-lg-12 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <div class="table-responsive">
+                                  
+                                    <table id="tblCustomers" class="table" cellpadding="0" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th>Documents</th>
+                                    
+                                                <th >Description</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                    
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                
+                                                <td class="choosefile"><input type="file" name="UploadFile" id="txtimg" /></td>
+
+                                                <td><input type="text" id="txtName" name="abc_0" /></td>
+                                            
+                                                <td class="btn-add" ><button type="button" id="btnAdd" value="Add">Add</button></td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                    <br />
+                                    <div class="text-center m-4">
+                                    
+                                        <button type="submit" class="btn-submit btn-indigo" name="Command" value="Add">
+                                        <i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+
+                                    </div>
+                                
+                                </div>
+                        
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </form><!--document upload end-->
+
+    </div>
+    </div>
+
+        <!--step thanks------>
+        <div class="step">
+            <div class="mt-1">
+             <div class="closing-text">
+            
+                <p>Thank You</p>
+                <p>Click on the submit button to continue.</p>
+             </div>
+            </div>
+        </div>
+
+
+ 
+          <div id="success">
+                <div class="mt-5">
+                    <h4>Success! </h4>
+                       <a class="back-link" href="">Go back from the beginning ➜</a>
+                                </div>
+                            </div>
+
+                         
+                         <div id="q-box__buttons">
+                            <button id="prev-btn" type="button">Previous</button> 
+                            <button id="next-btn" type="button">Next</button> 
+                            <button id="submit-btn" type="submit">Submit</button>
+                         </div>
+    </form>
+
+ </div>
+ </div>
+ </div>
+</div> 
+
+   
+<script type="text/javascript">
+    $(document).ready(function () {
+        alert('sunil')
+    })
+
+    $("body").on("click", "#btnAdd", function () {
+        debugger
+        alert('xyz')
+        //Reference the Name and Country TextBoxes.
+        var txtimg = $("#txtimg");
+        /* var txtName = $("#txtName");*/
+        var txtCountry = $("#txtCountry");
+
+        //Get the reference of the Table's TBODY element.
+        var tBody = $("#tblCustomers > TBODY")[0];
+
+        //Add Row.
+        var row = tBody.insertRow(-1);
+
+        ////Add Name cell.
+        //var cell = $(row.insertCell(-1));
+        //cell.html(txtName.val());
+        cell = $(row.insertCell(-1));
+        cell.html(txtimg.val());
+
+
+        //Add Country cell.
+        cell = $(row.insertCell(-1));
+        cell.html(txtCountry.val());
+
+        //Add Button cell.
+        cell = $(row.insertCell(-1));
+        var btnRemove = $("<input />");
+        btnRemove.attr("type", "button");
+        btnRemove.attr("onclick", "Remove(this);");
+        btnRemove.val("Remove");
+        cell.append(btnRemove);
+
+        //Clear the TextBoxes.
+        /* txtName.val("");*/
+        txtimg.val("");
+        txtCountry.val("");
+    });
+
+    function Remove(button) {
+        //Determine the reference of the Row using the Button.
+        var row = $(button).closest("TR");
+        var name = $("TD", row).eq(0).html();
+        if (confirm("Do you want to delete: " + name)) {
+            //Get the reference of the Table.
+            var table = $("#tblCustomers")[0];
+
+            //Delete the Table row using it's Index.
+            table.deleteRow(row[0].rowIndex);
+        }
+    };
+
+    $("body").on("click", "#btnSave", function () {
+        //Loop through the Table rows and build a JSON array.
+        var customers = new Array();
+        $("#tblCustomers TBODY TR").each(function () {
+            var row = $(this);
+            var customer = {};
+            customer.Document = row.find("TD").eq(0).html();
+            customer.Country = row.find("TD").eq(1).html();
+            customers.push(customer);
+        });
+
+       // //Send the JSON array to Controller using AJAX.
+        //$.ajax({
+        //    type: "POST",
+        //    url: "/Onboarding/OnboardingUserList",
+        //    data: JSON.stringify(customers),
+        //    contentType: "application/json; charset=utf-8",
+        //    dataType: "json",
+        //    success: function (r) {
+        //        alert(r + " record(s) inserted.");
+        //    }
+        //});
+    });
+</script>
+          	
+<div id="preloader-wrapper">
+    <div id="preloader"></div>
+    <div class="preloader-section section-left"></div>
+    <div class="preloader-section section-right"></div>
+ </div>
+
+
+   <script src="./assets/js/multistepform.js"></script>
+   </body>
+</html>
